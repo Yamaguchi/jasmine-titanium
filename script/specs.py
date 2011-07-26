@@ -69,7 +69,7 @@ def create_option_parser():
     return parser
 
 def run_iphone_simulator():
-    command = "~/Library/Application\ Support/Titanium/mobilesdk/osx/" + sdk_version() + "/iphone/builder.py run " + project_dir()
+    command = "/Library/Application\ Support/Titanium/mobilesdk/osx/" + sdk_version() + "/iphone/builder.py run " + project_dir()
     os.system(command)
 
 def main(argv):
